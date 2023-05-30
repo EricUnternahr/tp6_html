@@ -290,3 +290,62 @@ footer h1
     text-decoration: none;
     color: #760001;
 }
+
+
+
+@media all and (max-width: 1024px)
+
+{
+    
+nav
+{font-size: 15px;}
+
+ul{
+    flex-direction: column;
+}
+
+header{
+    justify-content: flex-start;
+}
+
+#banniere_image
+{
+    display: none}
+
+
+section{
+    flex-direction: column;
+}
+
+
+#fleche_bulle{
+    display: none
+}
+
+#photo_zozor img
+{
+    float: right;
+    margin-left: 15px;
+}
+
+aside p:last-child
+{
+    text-align: center;
+}
+
+#mes_photos{
+    float: center;
+    margin-left: 15px;
+    width: 20%;
+    }
+
+footer{
+        justify-content: space-between}
+
+#listes_amis{
+        justify-content: space-evenly
+    }
+
+}
+
+
